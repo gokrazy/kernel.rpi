@@ -191,7 +191,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	dtbos, err := filepath.Glob("arch/arm64/boot/dts/overlays/*.dtbo")
+	dtbos, err := filepath.Glob("arch/arm64/boot/dts/broadcom/*.dtb")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -201,7 +201,7 @@ func main() {
 		}
 	}
 
-	dtbs, err := filepath.Glob("arch/arm64/boot/dts/broadcom/*.dtb")
+	dtbs, err := filepath.Glob("arch/arm64/boot/dts/overlays/*.dtbo")
 	if err != nil {
 		log.Fatal(err)
 	}

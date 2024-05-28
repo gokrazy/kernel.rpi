@@ -262,7 +262,7 @@ func main() {
 	if err := cp.Run(); err != nil {
 		log.Fatalf("%v: %v", cp.Args, err)
 	}
-	cp = exec.Command("cp", "-r", filepath.Join(tmp, "overlays"), "overlays")
+	cp = exec.Command("cp", "-r", filepath.Join(tmp, "overlays"), ".")
 	cp.Stdout = os.Stdout
 	cp.Stderr = os.Stderr
 	if err := cp.Run(); err != nil {
