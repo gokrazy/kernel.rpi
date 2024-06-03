@@ -227,6 +227,9 @@ alias usb:v0408p3090d*dc*dsc*dp*ic0Eisc01ip00in* uvcvideo
 alias of:N*T*Csony,cxd2880C* cxd2880_spi
 alias of:N*T*Csony,cxd2880 cxd2880_spi
 alias spi:cxd2880 cxd2880_spi
+alias platform:pwm-fan pwm_fan
+alias of:N*T*Cpwm-fanC* pwm_fan
+alias of:N*T*Cpwm-fan pwm_fan
 alias tty-ldisc-15 hci_uart
 alias of:N*T*Cinfineon,cyw55572-btC* hci_uart
 alias of:N*T*Cinfineon,cyw55572-bt hci_uart
