@@ -3,7 +3,7 @@ name: Update kernel ref
 on:
   schedule:
     # daily, hour and minute chosen arbitrarily
-    - cron:  '8 47 * * *'
+    - cron:  '47 8 * * *'
 
 jobs:
 
