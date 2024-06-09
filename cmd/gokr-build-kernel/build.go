@@ -16,7 +16,7 @@ import (
 )
 
 // see https://github.com/raspberrypi/linux/tags
-var latest = "https://github.com/raspberrypi/linux/archive/refs/tags/stable_20240423.tar.gz"
+var latest = "https://github.com/raspberrypi/linux/archive/refs/tags/stable_20240529.tar.gz"
 
 //go:embed config.addendum.txt
 var configAddendum []byte
