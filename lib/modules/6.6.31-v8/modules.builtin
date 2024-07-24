@@ -500,7 +500,10 @@ kernel/drivers/rtc/rtc-rpi.ko
 kernel/drivers/rtc/rtc-tegra.ko
 kernel/drivers/rtc/rtc-xgene.ko
 kernel/drivers/i2c/i2c-core.ko
+kernel/drivers/i2c/i2c-dev.ko
+kernel/drivers/i2c/busses/i2c-bcm2708.ko
 kernel/drivers/i2c/busses/i2c-bcm2835.ko
+kernel/drivers/i2c/busses/i2c-brcmstb.ko
 kernel/drivers/media/i2c/ir-kbd-i2c.ko
 kernel/drivers/media/mc/mc.ko
 kernel/drivers/media/v4l2-core/v4l2-async.ko
