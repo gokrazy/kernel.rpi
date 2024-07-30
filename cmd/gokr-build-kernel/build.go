@@ -205,6 +205,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	dtbs = append(dtbs, "arch/arm64/boot/dts/overlays/overlay_map.dtb")
 	if err := os.MkdirAll("/tmp/buildresult/overlays", 0755); err != nil {
 		log.Fatal(err)
 	}
