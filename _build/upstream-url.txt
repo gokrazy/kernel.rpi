@@ -1,1 +1,1 @@
-https://github.com/raspberrypi/linux/archive/refs/tags/stable_20241008.tar.gz
+https://github.com/raspberrypi/linux/archive/refs/tags/stable_20250127.tar.gz
