@@ -1067,3 +1067,13 @@ CONFIG_USB_VIDEO_CLASS=m
 
 # explicitly disable kernel module compression
 CONFIG_MODULE_COMPRESS_NONE=y
+
+# For virtio drivers (for qemu):
+CONFIG_VIRTIO_PCI=y
+CONFIG_VIRTIO_BALLOON=y
+CONFIG_VIRTIO_BLK=y
+CONFIG_VIRTIO_NET=y
+CONFIG_VIRTIO=y
+CONFIG_VIRTIO_RING=y
+# For watchdog within qemu:
+CONFIG_I6300ESB_WDT=y

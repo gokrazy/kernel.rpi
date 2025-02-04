@@ -241,7 +241,11 @@ kernel/drivers/pmdomain/amlogic/meson-ee-pwrc.ko
 kernel/drivers/pmdomain/amlogic/meson-secure-pwrc.ko
 kernel/drivers/virtio/virtio.ko
 kernel/drivers/virtio/virtio_ring.ko
+kernel/drivers/virtio/virtio_pci_modern_dev.ko
+kernel/drivers/virtio/virtio_pci_legacy_dev.ko
 kernel/drivers/virtio/virtio_mmio.ko
+kernel/drivers/virtio/virtio_pci.ko
+kernel/drivers/virtio/virtio_balloon.ko
 kernel/drivers/xen/xenbus/xenbus.ko
 kernel/drivers/xen/xenbus/xenbus_probe_frontend.ko
 kernel/drivers/xen/xen-evtchn.ko
@@ -325,6 +329,7 @@ kernel/drivers/base/regmap/regmap-spmi.ko
 kernel/drivers/base/regmap/regmap-mmio.ko
 kernel/drivers/block/brd.ko
 kernel/drivers/block/loop.ko
+kernel/drivers/block/virtio_blk.ko
 kernel/drivers/block/xen-blkfront.ko
 kernel/drivers/misc/qcom-coincell.ko
 kernel/drivers/misc/ti-st/st_drv.ko
@@ -382,6 +387,7 @@ kernel/drivers/net/mdio/mdio-xgene.ko
 kernel/drivers/net/pcs/pcs_xpcs.ko
 kernel/drivers/net/tun.ko
 kernel/drivers/net/veth.ko
+kernel/drivers/net/virtio_net.ko
 kernel/drivers/net/nlmon.ko
 kernel/drivers/net/ethernet/3com/3c59x.ko
 kernel/drivers/net/ethernet/3com/typhoon.ko
@@ -434,6 +440,7 @@ kernel/drivers/net/usb/smsc95xx.ko
 kernel/drivers/net/usb/usbnet.ko
 kernel/drivers/net/usb/lg-vl600.ko
 kernel/drivers/net/usb/r8153_ecm.ko
+kernel/drivers/net/net_failover.ko
 kernel/drivers/usb/common/usb-common.ko
 kernel/drivers/usb/common/usb-conn-gpio.ko
 kernel/drivers/usb/common/ulpi.ko
@@ -676,6 +683,7 @@ kernel/drivers/watchdog/tegra_wdt.ko
 kernel/drivers/watchdog/meson_gxbb_wdt.ko
 kernel/drivers/watchdog/meson_wdt.ko
 kernel/drivers/watchdog/marvell_gti_wdt.ko
+kernel/drivers/watchdog/i6300esb.ko
 kernel/drivers/edac/edac_core.ko
 kernel/drivers/edac/xgene_edac.ko
 kernel/drivers/cpufreq/cpufreq_performance.ko
@@ -737,6 +745,7 @@ kernel/drivers/android/binder.ko
 kernel/drivers/nvmem/nvmem-raspberrypi-otp.ko
 kernel/sound/soundcore.ko
 kernel/net/core/selftests.ko
+kernel/net/core/failover.ko
 kernel/net/llc/llc.ko
 kernel/net/802/p8022.ko
 kernel/net/802/psnap.ko
