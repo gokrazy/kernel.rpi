@@ -416,6 +416,8 @@ kernel/drivers/net/ethernet/hisilicon/hns/hns_dsaf.ko
 kernel/drivers/net/ethernet/hisilicon/hns/hns_enet_drv.ko
 kernel/drivers/net/ethernet/hisilicon/hisi_femac.ko
 kernel/drivers/net/ethernet/intel/e100.ko
+kernel/drivers/net/ethernet/intel/e1000/e1000.ko
+kernel/drivers/net/ethernet/intel/e1000e/e1000e.ko
 kernel/drivers/net/ethernet/fealnx.ko
 kernel/drivers/net/ethernet/natsemi/natsemi.ko
 kernel/drivers/net/ethernet/realtek/8139cp.ko
