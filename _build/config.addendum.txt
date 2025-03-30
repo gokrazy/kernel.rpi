@@ -1061,6 +1061,9 @@ CONFIG_GPIOLIB=y
 
 # for easy sandboxing with go-landlock
 CONFIG_SECURITY_LANDLOCK=y
+# For some reason, the Raspberry Pi kernel defconfig explicitly
+# contains CONFIG_LSM="", so we need to enable landlock:
+CONFIG_LSM="landlock"
 
 # for v4l2 and uvcvideo
 CONFIG_MEDIA_SUPPORT=y
