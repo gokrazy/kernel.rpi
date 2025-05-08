@@ -1073,8 +1073,10 @@ CONFIG_USB=y
 CONFIG_VIDEO_DEV=y
 CONFIG_USB_VIDEO_CLASS=m
 
-# explicitly disable kernel module compression
-CONFIG_MODULE_COMPRESS_NONE=y
+# Explicitly disable kernel module compression, which the Raspberry Pi
+# config enables by default: In gokrazy, we have compression at the
+# SquashFS level, so any further compression is useless.
+CONFIG_MODULE_COMPRESS_ALL=n
 
 # For virtio drivers (for qemu):
 CONFIG_VIRTIO_PCI=y
