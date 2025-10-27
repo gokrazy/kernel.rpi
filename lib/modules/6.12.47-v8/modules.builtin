@@ -37,7 +37,6 @@ kernel/fs/autofs/autofs4.ko
 kernel/fs/fuse/fuse.ko
 kernel/fs/overlayfs/overlay.ko
 kernel/fs/f2fs/f2fs.ko
-kernel/fs/bcachefs/bcachefs.ko
 kernel/fs/pstore/pstore.ko
 kernel/fs/pstore/ramoops.ko
 kernel/crypto/crypto.ko
@@ -60,8 +59,6 @@ kernel/crypto/ecb.ko
 kernel/crypto/cts.ko
 kernel/crypto/xts.ko
 kernel/crypto/des_generic.ko
-kernel/crypto/chacha_generic.ko
-kernel/crypto/poly1305_generic.ko
 kernel/crypto/crc32c_generic.ko
 kernel/crypto/crc32_generic.ko
 kernel/crypto/crct10dif_common.ko
@@ -70,7 +67,6 @@ kernel/crypto/crc64_rocksoft_generic.ko
 kernel/crypto/lzo.ko
 kernel/crypto/lzo-rle.ko
 kernel/crypto/rng.ko
-kernel/crypto/xor.ko
 kernel/crypto/asymmetric_keys/public_key.ko
 kernel/crypto/asymmetric_keys/x509_key_parser.ko
 kernel/crypto/asymmetric_keys/pkcs7_message.ko
@@ -79,7 +75,6 @@ kernel/block/bsg.ko
 kernel/block/mq-deadline.ko
 kernel/block/kyber-iosched.ko
 kernel/block/bfq.ko
-kernel/arch/arm64/lib/xor-neon.ko
 kernel/lib/math/rational.ko
 kernel/lib/crypto/libcryptoutils.ko
 kernel/lib/crypto/libchacha.ko
@@ -89,7 +84,6 @@ kernel/lib/crypto/libchacha20poly1305.ko
 kernel/lib/crypto/libcurve25519-generic.ko
 kernel/lib/crypto/libcurve25519.ko
 kernel/lib/crypto/libdes.ko
-kernel/lib/crypto/libpoly1305.ko
 kernel/lib/crypto/libsha1.ko
 kernel/lib/crypto/libsha256.ko
 kernel/lib/crypto/mpi/mpi.ko
@@ -109,14 +103,11 @@ kernel/lib/zlib_deflate/zlib_deflate.ko
 kernel/lib/reed_solomon/reed_solomon.ko
 kernel/lib/lzo/lzo_compress.ko
 kernel/lib/lzo/lzo_decompress.ko
-kernel/lib/lz4/lz4_compress.ko
-kernel/lib/lz4/lz4hc_compress.ko
 kernel/lib/lz4/lz4_decompress.ko
 kernel/lib/zstd/zstd_compress.ko
 kernel/lib/zstd/zstd_decompress.ko
 kernel/lib/zstd/zstd_common.ko
 kernel/lib/xz/xz_dec.ko
-kernel/lib/raid6/raid6_pq.ko
 kernel/lib/glob.ko
 kernel/lib/dim/dimlib.ko
 kernel/lib/asn1_decoder.ko

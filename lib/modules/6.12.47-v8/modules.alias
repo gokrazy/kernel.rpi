@@ -43,6 +43,10 @@ alias crypto-jitterentropy_rng jitterentropy_rng
 alias jitterentropy_rng jitterentropy_rng
 alias crypto-ecdh ecdh_generic
 alias ecdh ecdh_generic
+alias of:N*T*Craspberrypi,poe-pwmC* pwm_raspberrypi_poe
+alias of:N*T*Craspberrypi,poe-pwm pwm_raspberrypi_poe
+alias of:N*T*Craspberrypi,firmware-poe-pwmC* pwm_raspberrypi_poe
+alias of:N*T*Craspberrypi,firmware-poe-pwm pwm_raspberrypi_poe
 alias xen-backend:pci xen_pciback
 alias of:N*T*Camlogic,g12a-mdio-muxC* mdio_mux_meson_g12a
 alias of:N*T*Camlogic,g12a-mdio-mux mdio_mux_meson_g12a

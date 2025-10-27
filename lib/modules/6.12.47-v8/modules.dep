@@ -5,6 +5,7 @@ kernel/crypto/drbg.ko:
 kernel/crypto/jitterentropy_rng.ko:
 kernel/crypto/ecc.ko:
 kernel/crypto/ecdh_generic.ko: kernel/crypto/ecc.ko
+kernel/drivers/pwm/pwm-raspberrypi-poe.ko:
 kernel/drivers/xen/xen-pciback/xen-pciback.ko:
 kernel/drivers/xen/xen-gntdev.ko:
 kernel/drivers/xen/xen-gntalloc.ko:
