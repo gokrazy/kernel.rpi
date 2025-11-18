@@ -452,6 +452,7 @@ kernel/drivers/net/ethernet/stmicro/stmmac/dwmac-meson8b.ko
 kernel/drivers/net/ethernet/stmicro/stmmac/dwmac-qcom-ethqos.ko
 kernel/drivers/net/ethernet/stmicro/stmmac/dwmac-generic.ko
 kernel/drivers/net/fddi/skfp/skfp.ko
+kernel/drivers/net/wwan/wwan.ko
 kernel/drivers/net/xen-netfront.ko
 kernel/drivers/net/usb/r8152.ko
 kernel/drivers/net/usb/lan78xx.ko
@@ -459,7 +460,9 @@ kernel/drivers/net/usb/asix.ko
 kernel/drivers/net/usb/cdc_ether.ko
 kernel/drivers/net/usb/smsc95xx.ko
 kernel/drivers/net/usb/usbnet.ko
+kernel/drivers/net/usb/cdc_ncm.ko
 kernel/drivers/net/usb/lg-vl600.ko
+kernel/drivers/net/usb/cdc_mbim.ko
 kernel/drivers/net/usb/r8153_ecm.ko
 kernel/drivers/net/net_failover.ko
 kernel/drivers/usb/common/usb-common.ko
@@ -491,6 +494,7 @@ kernel/drivers/usb/dwc3/dwc3-qcom.ko
 kernel/drivers/usb/dwc2/dwc2.ko
 kernel/drivers/usb/class/cdc-acm.ko
 kernel/drivers/usb/class/usblp.ko
+kernel/drivers/usb/class/cdc-wdm.ko
 kernel/drivers/usb/storage/uas.ko
 kernel/drivers/usb/storage/usb-storage.ko
 kernel/drivers/usb/serial/usbserial.ko
