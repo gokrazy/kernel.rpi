@@ -43,10 +43,6 @@ alias crypto-jitterentropy_rng jitterentropy_rng
 alias jitterentropy_rng jitterentropy_rng
 alias crypto-ecdh ecdh_generic
 alias ecdh ecdh_generic
-alias of:N*T*Craspberrypi,poe-pwmC* pwm_raspberrypi_poe
-alias of:N*T*Craspberrypi,poe-pwm pwm_raspberrypi_poe
-alias of:N*T*Craspberrypi,firmware-poe-pwmC* pwm_raspberrypi_poe
-alias of:N*T*Craspberrypi,firmware-poe-pwm pwm_raspberrypi_poe
 alias xen-backend:pci xen_pciback
 alias of:N*T*Camlogic,g12a-mdio-muxC* mdio_mux_meson_g12a
 alias of:N*T*Camlogic,g12a-mdio-mux mdio_mux_meson_g12a
@@ -228,9 +224,6 @@ alias usb:v03F0pE207d*dc*dsc*dp*ic0Eisc01ip00in* uvcvideo
 alias of:N*T*Csony,cxd2880C* cxd2880_spi
 alias of:N*T*Csony,cxd2880 cxd2880_spi
 alias spi:cxd2880 cxd2880_spi
-alias platform:pwm-fan pwm_fan
-alias of:N*T*Cpwm-fanC* pwm_fan
-alias of:N*T*Cpwm-fan pwm_fan
 alias tty-ldisc-15 hci_uart
 alias of:N*T*Cinfineon,cyw55572-btC* hci_uart
 alias of:N*T*Cinfineon,cyw55572-bt hci_uart

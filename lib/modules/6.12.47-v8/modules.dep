@@ -5,7 +5,6 @@ kernel/crypto/drbg.ko:
 kernel/crypto/jitterentropy_rng.ko:
 kernel/crypto/ecc.ko:
 kernel/crypto/ecdh_generic.ko: kernel/crypto/ecc.ko
-kernel/drivers/pwm/pwm-raspberrypi-poe.ko:
 kernel/drivers/xen/xen-pciback/xen-pciback.ko:
 kernel/drivers/xen/xen-gntdev.ko:
 kernel/drivers/xen/xen-gntalloc.ko:
@@ -171,7 +170,6 @@ kernel/drivers/media/common/videobuf2/videobuf2-vmalloc.ko: kernel/drivers/media
 kernel/drivers/media/common/uvc.ko:
 kernel/drivers/media/usb/uvc/uvcvideo.ko: kernel/drivers/media/common/videobuf2/videobuf2-vmalloc.ko kernel/drivers/media/common/videobuf2/videobuf2-memops.ko kernel/drivers/media/common/uvc.ko kernel/drivers/media/common/videobuf2/videobuf2-v4l2.ko kernel/drivers/media/common/videobuf2/videobuf2-common.ko
 kernel/drivers/media/spi/cxd2880-spi.ko:
-kernel/drivers/hwmon/pwm-fan.ko:
 kernel/drivers/bluetooth/hci_uart.ko: kernel/drivers/bluetooth/btbcm.ko kernel/net/bluetooth/bluetooth.ko kernel/crypto/ecdh_generic.ko kernel/crypto/ecc.ko
 kernel/drivers/bluetooth/btbcm.ko: kernel/net/bluetooth/bluetooth.ko kernel/crypto/ecdh_generic.ko kernel/crypto/ecc.ko
 kernel/net/bluetooth/bluetooth.ko: kernel/crypto/ecdh_generic.ko kernel/crypto/ecc.ko

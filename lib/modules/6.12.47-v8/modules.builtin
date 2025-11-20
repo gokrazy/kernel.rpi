@@ -167,6 +167,7 @@ kernel/drivers/gpio/gpio-xgene-sb.ko
 kernel/drivers/pwm/pwm-bcm2835.ko
 kernel/drivers/pwm/pwm-brcmstb.ko
 kernel/drivers/pwm/pwm-meson.ko
+kernel/drivers/pwm/pwm-raspberrypi-poe.ko
 kernel/drivers/pwm/pwm-rp1.ko
 kernel/drivers/pwm/pwm-tegra.ko
 kernel/drivers/leds/led-class.ko
@@ -696,6 +697,7 @@ kernel/drivers/power/supply/bq27xxx_battery_i2c.ko
 kernel/drivers/power/supply/bq27xxx_battery_hdq.ko
 kernel/drivers/power/supply/qcom_smbb.ko
 kernel/drivers/hwmon/hwmon.ko
+kernel/drivers/hwmon/pwm-fan.ko
 kernel/drivers/hwmon/raspberrypi-hwmon.ko
 kernel/drivers/hwmon/xgene-hwmon.ko
 kernel/drivers/thermal/broadcom/bcm2711_thermal.ko
